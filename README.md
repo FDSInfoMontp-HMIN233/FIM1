@@ -1,6 +1,4 @@
 # FIM1
-# FIM1
-
 # <img src="./logo.jpeg" width="17%" style="margin:auto;display:block;"/> IMAGINA - Frequent Itemset Mining - part1 - 
 ### Université de Montpellier – Département Informatique
 * **Cours:** [HMIN233](https://formations.umontpellier.fr/fr/formations/sciences-technologies-sante-STS/master-XB/master-informatique-program-fruai0342321nprme154/informatique-pour-les-sciences-ips-subprogram-pr480/algorithmes-d-exploration-et-de-mouvement-HMIN233/algorithmes-d-exploration-HMIN233A.html)
