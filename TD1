@@ -1,0 +1,51 @@
+TD Boris Marcellin 
+
+Exo1
+
+1)
+
+Md1	 A	B	C	D	E	F		V1	A	B	C	D	E	F
+1	 0	1	1	1	0	0			2	1	1	1	2	3
+2  	 1	1	1	0	1	0			3	2	2	3	4	6
+3	 1	1	1	1	0	1			5	3	3	4	6	7
+4 	 0	0	0	1	1	0			6	5	6	8	7	8
+5  	 1	1	0	0	0	0			7	7	9		9	10
+6	 1	0	1	0	1	1			10	10			
+7	 1	1	0	0	1	1
+8  	 0	0	0	1	0	1
+9  	 0	0	1	0	1	0
+10 	 1	1	0	0	0	1
+
+
+2) 
+			ACD	CE	BCE	ABCE	E	D	BC	F	CDF	EF
+
+Frequence absolue: 	1	3	1	0	5	4	3	5	1	2	
+	
+Frequence relative:   	1/10	3/10	1/10	0	5/10	4/10	3/10	5/10	1/10	2/10	
+
+3)
+
+Les items sets frequents avec un minimum support Q=	5			6		7		8		9		10
+							{A,B,AB}        	{A,B}		0		0		0		0
+							
+4) Deux itemsets comparables pourraient etre A et B. Deux non comparables seraient A et D
+
+Exo2
+
+1) Preuve de X ⊆ Y ⇒ freq(Y) ≤ freq(X):
+
+On sait que X ⊆ Y ⇒ cover(Y) ⊆ cover(X)
+ce qui veut dire que: soit X=(x1x2x3x4....xn), on a X⊆Y
+et donc Y=(x1x2x3x4...xny1y2y3....yn)
+Donc on a bien cover(Y) ⊆ cover(X)
+et pour chaque fois ou l'itemset Y est present, l'itemset X l'est automatiquement (car X ⊆ Y), mais l'inverse n'est pas forcement vrai(cela est vrai si par exemple Y=X), on peut donc en deduire que X ⊆ Y ⇒ freq(Y) ≤ freq(X)
+
+2) On sait que X ⊆ Y ⇒ freq(Y) ≤ freq(X) 
+Si freq(Y) ≥ θ, on a donc freq(X) ≥ θ, car freq(Y) ≤ freq(X)  et donc
+X ⊆ Y ⇒ (freq(Y) ≥ θ ⇒ freq(X) ≥ θ)
+
+Exo3
+
+
+
